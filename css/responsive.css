@@ -1,0 +1,93 @@
+@media screen and (max-width:2000px) {
+	div.contenedor {
+		max-width:900px;
+	}
+	.caja2 img {
+		height:6%;
+	}
+}
+@media screen and (max-width:1024px) {
+		div.contenedor {
+			width:100%;
+		}
+		header {
+			height:120px;
+		}
+		header h1 {
+			position:static;
+		}
+}
+@media screen and (max-width:800px) {
+	body p {
+		padding:10px;
+	}
+	aside {
+		float:none;
+		width:98%;
+	}
+	.caja2 {
+		width:98%;
+	}
+	.caja2 img {
+		width:80%;
+	}
+	header h1 {
+		position:relative;
+		float:none;
+		top:20%;
+	}
+	.cajat1 {
+		width:80%;
+	}
+}
+
+@media screen and (max-width:670px) {
+	header h1 {
+		top:2%;
+		font-size:3em;
+	}
+	#image img {
+		display:none;
+	}
+	#image2 img {
+		display:none;
+	}
+}
+
+@media screen and (max-width:400px) {
+		body p, h3 {
+			padding:20px;
+		}
+		header {
+			background-image:url(../img/Fundacite.jpg);
+			background-color:#000;
+		}
+		header h1 {
+			color:#EEEFF7;
+			text-shadow:2px 3px #000;
+		}
+		.logeo {
+			width:98%;
+			border:none;
+		}
+		.caja2 {
+			width:98%;
+		}
+		.caja2 img {
+			width:98%;
+			height:340px;
+		}
+		aside {
+			float:none;
+			width:98%;
+		}
+		.cajat1 {
+			width:100%;
+		}
+		.cajat1 .redes p {
+			display:block;
+		}
+		header h1 {
+			top:1%;
+		}
+}

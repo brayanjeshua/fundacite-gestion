@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+* {
+	padding:0;
+	margin:0;
+	border:none;
+}
+body {
+	background:#3F3B49;
+	font-family:'Roboto', Helvetica, sans-serif, arial;
+	text-align:justify;
+	background:;
+}
+div#main {
+	margin:auto;
+	width:80%;
+	position:relative;
+}
+header {
+	color:#fff;
+	font-family:Helvetica;
+	text-align:center;
+	font-size:2em;
+}
+header p {
+	font-family:'PT Serif';
+}
+a {
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	padding:10px;
+	color:#000;
+	background-color:#ccc;
+}
+a:hover {
+	background-color:#000;
+	color:#fff;
+}
+.aguada, .trampa, .observatorio, .tucani {
+	margin:auto;
+	width:50%;
+}
+section {
+	width:68%;
+	padding:1%;
+	display:inline-block;
+	/*background:#53E5E8;*/
+	background:yellow;
+	margin-bottom:20px;
+	position:relative;
+
+}
+aside {
+	padding:1%;
+	width:28%;
+	position:relative;
+	float:right;
+	background:#ff8000;
+	color:#000;
+}
+h3 {
+	text-align:center;
+	text-shadow:1px 1px #ccc;
+}
+footer {
+	background-color:#000;
+	color:#fff;
+	padding:1%;
+}

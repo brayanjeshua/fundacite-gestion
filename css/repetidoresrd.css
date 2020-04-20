@@ -1,0 +1,23 @@
+@media screen and (max-width:400px) {
+	div#main {
+		width:100%;
+	}
+	.aguada, .trampa, .observatorio, .tucani {
+		width:80%;
+	}
+	p {
+		margin:auto;
+		width:80%;
+	}
+	aside {
+		padding:0;
+		width:100%;
+		float:none;
+	}
+	aside p {
+		display:none;
+	}
+	section {
+		width:98%;
+	}
+}
